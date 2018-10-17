@@ -54,7 +54,7 @@ To run the TypeScript compiler, and watch the filesystem for changes, run:
 
 Annnnd we're done! With TypeScript support, anyways. You should now have a terminal window open that is displaying something to the effect of:
 
-![TypeScript CLI watching the source. No errors detected.](/images/react-native/2-tsc.png)
+![TypeScript CLI watching the source. No errors detected.]({{ site.baseurl }}/images/react-native/2-tsc.png)
 
 At this point I'd recommend opening up the directory you've initialized your app into with the [Visual Studio Code]() editor. It is free, has excellent support for TypeScript (both are built by Microsoft), and a big community behind it. You may need to install the `code` [command in your path](https://code.visualstudio.com/docs/setup/mac#_launching-from-the-command-line) before running this:
 
@@ -140,7 +140,7 @@ OK! This is a good point to check that the app we just created is in fact runnab
 
 In Xcode, select a simulator to target and tap the Play button to build and run your app. With any luck, you should see the Metro Bundler open in a Terminal window, and the iOS simulator should show your app running alongside it. This could take a few minutes during the first run of the app since there's lots of native code to be compiled:
 
-![App running on the iOS simulator](/images/react-native/1-app-running.png)
+![App running on the iOS simulator]({{ site.baseurl }}/images/react-native/1-app-running.png)
 
 Did you have an issue starting up the app? Try clearing the Metro cache, and running the app again from Xcode:
 
@@ -153,11 +153,11 @@ You've made it this far. Finally, let's make a change to the code to see it refl
 
 Did that not do anything? Sometimes this happens to me as well. Try triggering a "shake gesture" via the Hardware menu:
 
-![Triggering a shake gesture](/images/react-native/3-shake.png)
+![Triggering a shake gesture]({{ site.baseurl }}/images/react-native/3-shake.png)
 
 With the developer menu open, make sure Live Reload is _disabled_ and Hot Reload is _enabled_. Your menu should look like this:
 
-![Triggering a shake gesture](/images/react-native/4-dev-menu.png)
+![Triggering a shake gesture]({{ site.baseurl }}/images/react-native/4-dev-menu.png)
 
 We're now ready to make a change to the code. Open App.tsx with VS Code, and make a change to some of the text in the JSX of the App component's `render()` function, such as changing "Welcome to React Native!" to "THIS IS AWESOME!". Save the file. Observe the iOS simulator...
 

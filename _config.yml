@@ -7,14 +7,13 @@ baseurl:     "/octopress-to-jekyll-blog-upgrade" # TODO: remove during upgrade
 url:         "https://brucelefebvre.com"
 date_format: "%b %-d, %Y"
 header_pages:
- - about.md
  - contact.html
 
 # Google services
 google_verification:
 # Use either direct GA implementation or set up GTM account
 # - using both will skew your data (leave blank to not use at all)
-google_analytics:
+google_analytics: UA-41891145-1
 google_tag_manager:
 # Bing services
 bing_verification:
@@ -23,7 +22,7 @@ bing_verification:
 animated:             false
 show_related_posts:   false
 show_post_footers:    false
-show_social_icons:    false
+show_social_icons:    true
 ajaxify_contact_form: false
 enable_mathjax: false
 extended_fonts: false
@@ -38,7 +37,7 @@ fb_page_id:
 
 # Disqus post comments
 # (leave blank to disable Disqus)
-disqus_shortname:
+disqus_shortname: brucelefebvre
 
 # txtpen post comments
 # (leave blank to disable txtpen)
@@ -51,11 +50,11 @@ facebook_appid:
 facebook_comments_number: 10
 
 # Social icons
-github_username:
+github_username: blefebvre
 reddit_username:
 bitbucket_username:
 stackoverflow_id:
-twitter_username:
+twitter_username: brucelefebvre
 skype_username:
 steam_nickname:
 google_plus_id:
@@ -69,10 +68,10 @@ telegram_username:
 vk_id:
 
 # Post sharing icons
-show_sharing_icons: false
+show_sharing_icons: true
 # Change to 'true' to enable individual icons
 share_facebook: false
-share_twitter: false
+share_twitter: true
 share_googleplus: false
 share_linkedin: false
 share_digg: false

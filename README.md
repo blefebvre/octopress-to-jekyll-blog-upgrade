@@ -226,3 +226,4 @@ There may be merge conflicts, so be sure to fix the files that git lists if they
 - change `{% img %}` tags to `![alt](src)` style (see [kramdown cheatsheet](https://kramdown.gettalong.org/quickref.html))
 - change `categories` frontmatter to `tags`
 - move images folder over
+- prefix image src with `{{ site.baseurl }}` 
