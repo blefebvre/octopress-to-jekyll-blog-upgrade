@@ -59,7 +59,7 @@ paginate: 3
 Then, start the Jekyll Server. I always like to give the `--watch` option so it updates the generated HTML when I make changes.
 
 ```
-$ jekyll serve --watch
+$ bundle exec jekyll serve --watch
 ```
 
 Now you can navigate to `localhost:4000` in your browser to see the site.
@@ -219,3 +219,10 @@ There may be merge conflicts, so be sure to fix the files that git lists if they
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+
+## Bruce's upgrade notes. For each post:
+
+- change `{% img %}` tags to `![alt](src)` style (see [kramdown cheatsheet](https://kramdown.gettalong.org/quickref.html))
+- change `categories` frontmatter to `tags`
+- move images folder over

@@ -1,9 +1,9 @@
 # Site settings
-title:       Pixyll
-email:       your_email@example.com
-author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
-baseurl:     "/octopress-to-jekyll-blog-upgrade"
+title:       Bruce Lefebvre
+email:       bruce@brucelefebvre.com
+author:      Bruce Lefebvre
+description: "My personal blog with a focus on web tech and mobile"
+baseurl:     "/octopress-to-jekyll-blog-upgrade" # TODO: remove during upgrade
 url:         "https://brucelefebvre.com"
 date_format: "%b %-d, %Y"
 header_pages:

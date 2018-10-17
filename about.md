@@ -1,8 +1,9 @@
 ---
 layout: page
-title: About Pixyll
+title: About
 permalink: /about/
 tags: about
+published: false
 ---
 
 This Jekyll theme was crafted with <3 by [John Otander](http://johnotander.com)
